@@ -22,7 +22,7 @@ const darken = keyframes`
 
 const BannerContainer = styled.div`
   background: linear-gradient(to right, #4f004f, #760076, #4f004f);
-  background-image: url('/casino.gif');
+  background-image: url('/casino.png');
   border-radius: 20px;
   padding: 40px;
   position: relative;
