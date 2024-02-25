@@ -127,11 +127,23 @@ export function TokenListingBanner() {
       <TextContainer>
         <Title>Play Games on SolBets and support $STACKS with Revenue 🚀</Title>
         <Description>
-         We sharing the platform revenue with #STACKS For BuyBacks and Burn!!
+          We sharing the platform revenue with #STACKS For BuyBacks and Burn!!
         </Description>
-        <Buttons>
-          <button onClick={() => window.open('https://t.me/StacksTokenBSC', '_blank')}>
+        <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <button 
+            style={{ padding: '10px', cursor: 'pointer' }} 
+            onClick={() => window.open('https://t.me/StacksTokenBSC', '_blank')}>
             Telegram
+          </button>
+          <button 
+            style={{ padding: '10px', cursor: 'pointer' }} 
+            onClick={() => window.open('https://www.dextools.io/app/en/bnb/pair-explorer/0xa1ad3c70207663ee62c5bd7d491c16c25dee9b76?t=1708889419588', '_blank')}>
+            Chart
+          </button>
+          <button 
+            style={{ padding: '10px', cursor: 'pointer' }} 
+            onClick={() => window.open('https://twitter.com/StacksTokenBSC', '_blank')}>
+            X
           </button>
         </Buttons>
       </TextContainer>
