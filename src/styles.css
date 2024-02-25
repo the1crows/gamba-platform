@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
   height: 40px;
   line-height: 40px;
   font-weight: normal;
-  background: rgb(182, 6, 15);
+  background: rgb(rgb(1, 1, 1);
   border-radius: 10px;
 }
 
