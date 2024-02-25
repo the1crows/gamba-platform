@@ -13,8 +13,8 @@
   --padding: 5px !important;
   --gamba-ui-border-radius: 20px;
 
-  --gamba-ui-button-default-background: linear-gradient(to right, #0e0e16, #171719); /* Gradient for default button background */
-  --gamba-ui-button-default-background-hover: linear-gradient(to right, #11111d, #171719); /* Gradient for default button background on hover */
+  --gamba-ui-button-default-background: linear-gradient(to right, #0e0e16, #07070935); /* Gradient for default button background */
+  --gamba-ui-button-default-background-hover: linear-gradient(to right, #11111d, #07070935); /* Gradient for default button background on hover */
   --gamba-ui-button-default-color: white;
 
   --gamba-ui-button-main-background: linear-gradient(to right, #8851ff, #171719); /* Gradient for main button background */
