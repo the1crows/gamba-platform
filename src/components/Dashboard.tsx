@@ -63,10 +63,10 @@ function MainPage() {
         <button onClick={() => window.open('https://explorer.gamba.so/platform/', '_blank')}>
           Explorer
         </button>
-        <button onClick={() => window.open('https://t.me/', '_blank')}>
+        <button onClick={() => window.open('https://t.me/SolBetsCasino', '_blank')}>
           Telegram
         </button>
-        <button onClick={() => window.open('https://x.com/', '_blank')}>
+        <button onClick={() => window.open('https://x.com/SolBetsCasino', '_blank')}>
           X.com
         </button>
       </Buttons>
