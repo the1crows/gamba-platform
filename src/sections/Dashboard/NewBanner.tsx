@@ -125,9 +125,9 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>Sol Vegas Listings Announcement 🚀</Title>
+        <Title>Play Games on SolBets and support $STACKS with Revenue 🚀</Title>
         <Description>
-         Sol Vegas token gets launched soon and listed as a play token!
+         We sharing the platform revenue with #STACKS For BuyBacks and Burn!!
         </Description>
         <Buttons>
           <button onClick={() => window.open('https://example.com', '_blank')}>
