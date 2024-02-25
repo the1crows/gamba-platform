@@ -100,7 +100,7 @@ export function WelcomeBanner() {
     <BannerContainer>
       <Mascot src={mascotImage} alt="Mascot" />
       <TextContainer>
-        <Title>Welcome to SwiftDice Casino</Title>
+        <Title>Welcome to SolVegas Casino</Title>
         <Description>
           Discover a transparent and decentralized casino experience on Solana, where participants can generate income by contributing to a shared liquidity pool.
         </Description>
