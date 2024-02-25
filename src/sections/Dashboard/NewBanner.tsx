@@ -54,7 +54,7 @@ const Background = styled.div`
 const TextContainer = styled.div`
   position: absolute;
   top: 50%;
-  right: 0; // Position right against the edge
+  right: 3cm; // Move 3cm from the right edge
   transform: translateY(-50%);
   z-index: 2; // Ensure the text is above the dark layer
   padding: 40px;
@@ -66,8 +66,10 @@ const TextContainer = styled.div`
     padding: 20px;
     max-width: 70%; // Adjust for mobile to fit text properly
     text-align: left; // Keep text left-aligned on smaller screens
+    right: 1cm; // Adjust for mobile, assuming less space is needed
   }
 `;
+
 
 
 // Styled components for title, description, and buttons remain the same
