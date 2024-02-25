@@ -34,7 +34,7 @@ const Buttons = styled.div`
   }
 
   & > button {
-    border: 2px solid #D91141; /* Add border with desired color */
+    border: 2px solid gold; /* Add border with desired color */
     border-radius: 15px;
     padding: 8px 16px;
     background: transparent; /* Set background to transparent */
@@ -46,7 +46,7 @@ const Buttons = styled.div`
     text-transform: uppercase;
     letter-spacing: 1px;
     &:hover {
-      background: #D91141; /* Change background color on hover */
+      background: #07070935; /* Change background color on hover */
     }
 
     @media (max-width: 768px) {
