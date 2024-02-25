@@ -7,16 +7,16 @@ import { TokenListingBanner } from '../sections/Dashboard/NewBanner';
 
 export function NewsCarousel() {
   const banners = [
-    <WelcomeBanner key={1} />
+    <WelcomeBanner key={1} />,
     <NewBanner key={2} />
   ];
 
   const settings = {
     dots: true,
-    infinite: banners.length > 2,
+    infinite: banners.length > 1,
     speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
   };
