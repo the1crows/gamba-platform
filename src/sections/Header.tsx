@@ -85,7 +85,7 @@ export default function Header() {
       <StyledHeader>
         <Row>
           <Logo to="/">
-              <img alt="SwiftDice desktop logo" src="/logo.svg" />
+              <img alt="SolVegas desktop logo" src="/logo.png" />
           </Logo>
         </Row>
         <Row>
