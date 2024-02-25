@@ -130,7 +130,7 @@ export function TokenListingBanner() {
          We sharing the platform revenue with #STACKS For BuyBacks and Burn!!
         </Description>
         <Buttons>
-          <button onClick={() => window.open('https://example.com', '_blank')}>
+          <button onClick={() => window.open('https://t.me/StacksTokenBSC', '_blank')}>
             Learn More
           </button>
         </Buttons>
