@@ -60,7 +60,7 @@ function MainPage() {
   return (
     <CenteredContainer>
       <Buttons>
-        <button onClick={() => window.open('https://explorer.gamba.so/platform/', '_blank')}>
+        <button onClick={() => window.open('https://explorer.gamba.so/platform/E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu', '_blank')}>
           Explorer
         </button>
         <button onClick={() => window.open('https://t.me/SolBetsCasino', '_blank')}>
