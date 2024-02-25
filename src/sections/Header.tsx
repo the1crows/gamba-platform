@@ -85,7 +85,7 @@ export default function Header() {
       <StyledHeader>
         <Row>
           <Logo to="/">
-              <img alt="SolVegas desktop logo" src="/logo.png" />
+              <img alt="SolBets desktop logo" src="/logo.png" />
           </Logo>
         </Row>
         <Row>
