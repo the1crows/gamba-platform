@@ -84,7 +84,7 @@ export default function Plinko() {
             const s = Math.min(xx, yy)
 
             ctx.clearRect(0, 0, size.width, size.height)
-            ctx.fillStyle = '#D91141'
+            ctx.fillStyle = '#030303'
             ctx.fillRect(0, 0, size.width, size.height)
             ctx.save()
             ctx.translate(size.width / 2 - plinko.width / 2 * s, size.height / 2 - plinko.height / 2 * s)
