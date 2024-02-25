@@ -18,7 +18,7 @@
   --gamba-ui-button-default-color: white;
 
   --gamba-ui-button-main-background: linear-gradient(to right, #8851ff, #171719); /* Gradient for main button background */
-  --gamba-ui-button-main-background-hover: linear-gradient(to right, #9564ff; /* Gradient for main button background on hover */
+  --gamba-ui-button-main-background-hover: linear-gradient(to right, #9564ff, #171719); /* Gradient for main button background on hover */
 
   --gamba-ui-input-background: #0e0e16;
   --gamba-ui-input-color: #ffffff;
