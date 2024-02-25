@@ -21,15 +21,13 @@ const darken = keyframes`
 `;
 
 const BannerContainer = styled.div`
-  background-image: url('/casino.gif'); /* Legg til din GIF her */
-  background-size: cover; /* Dekker hele containeren, kan justeres etter behov */
-  background-position: center; /* Sentrerer bakgrunnsbildet */
-  background-repeat: no-repeat; /* Forhindrer gjentakelse av bildet */
+  background: linear-gradient(to right, #4f004f, #760076, #4f004f);
+  background-image: url('/casino.gif');
   border-radius: 20px;
   padding: 40px;
   position: relative;
   overflow: hidden;
-  height: 441px; /* Sett en fast høyde for alle bannere */
+  height: 441px; /* Set a fixed height for all banners */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +37,7 @@ const BannerContainer = styled.div`
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    min-height: 350px; /* Sett en minimumshøyde for mobil */
+    min-height: 350px; /* Set a minimum height for mobile */
   }
   &::before {
     content: '';
@@ -48,8 +46,8 @@ const BannerContainer = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Juster dette for ønsket mørklegging */
-    z-index: 1; /* Sørg for at dette ligger over GIFen, men under alt annet innhold */
+    background-color: rgba(0, 0, 0, 0);
+    animation: ${darken} 0.8s ease forwards;
   }
 `;
 
