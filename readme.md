@@ -1,14 +1,14 @@
-# SwiftDice Casino Platform 🎲
+# Sol Vegas Casino Platform 🎲
 
-Welcome to the SwiftDice Casino Platform, an integral part of the dynamic Gamba Ecosystem.
+Welcome to the SolVegas Casino Platform, an integral part of the dynamic Gamba Ecosystem.
 
-Immerse yourself in a state-of-the-art frontend that showcases an extensive selection of meticulously crafted casino games on the SwiftDice platform.
+Immerse yourself in a state-of-the-art frontend that showcases an extensive selection of meticulously crafted casino games on the SolVegas platform.
 
 ## Advantages
 
-**Decentralized and Fair:** SwiftDice harnesses the power of blockchain technology to ensure unrivaled transparency and fairness in every game.
+**Decentralized and Fair:** SolVegas harnesses the power of blockchain technology to ensure unrivaled transparency and fairness in every game.
 
-**Robust Ecosystem:** As a cornerstone of the Gamba Ecosystem, SwiftDice provides unparalleled support and grants access to a vibrant community of developers and users.
+**Robust Ecosystem:** As a cornerstone of the Gamba Ecosystem, SolVegas provides unparalleled support and grants access to a vibrant community of developers and users.
 
 **High Liquidity:** By using Gamba Ecosystem Shared Pools the Jackpot and bet liquidity will always be available for Players.
 
@@ -16,7 +16,7 @@ Immerse yourself in a state-of-the-art frontend that showcases an extensive sele
 
 ## Join Us Today!
 
-Embark on an exhilarating journey into the realm of online gaming with SwiftDice and Gamba. Revolutionize the gaming landscape and unlock boundless opportunities for innovation and growth.
+Embark on an exhilarating journey into the realm of online gaming with SolVegas and Gamba. Revolutionize the gaming landscape and unlock boundless opportunities for innovation and growth.
 
 If you require further assistance or have any inquiries, don't hesitate to reach out to us!
 
