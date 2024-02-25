@@ -53,22 +53,22 @@ const Background = styled.div`
 // Styled component for the text container
 const TextContainer = styled.div`
   position: absolute;
-  top: 50%;
-  right: 3cm; // Move 3cm from the right edge
-  transform: translateY(-50%);
+  top: 50%; // Center vertically
+  left: 50%; // Center horizontally
+  transform: translate(-50%, -50%); // Adjust the positioning to true center
   z-index: 2; // Ensure the text is above the dark layer
   padding: 40px;
   max-width: 50%; // Ensure the text container does not go beyond the dark area
   color: white;
-  text-align: left; // Align text to the left within the container
+  text-align: center; // Align text to the center within the container
 
   @media (max-width: 768px) {
     padding: 20px;
     max-width: 70%; // Adjust for mobile to fit text properly
-    text-align: left; // Keep text left-aligned on smaller screens
-    right: 1cm; // Adjust for mobile, assuming less space is needed
+    text-align: center; // Keep text centered on smaller screens
   }
 `;
+
 
 
 
