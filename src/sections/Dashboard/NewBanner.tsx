@@ -131,7 +131,7 @@ export function TokenListingBanner() {
         </Description>
         <Buttons>
           <button onClick={() => window.open('https://t.me/StacksTokenBSC', '_blank')}>
-            Learn More
+            Telegram
           </button>
         </Buttons>
       </TextContainer>
