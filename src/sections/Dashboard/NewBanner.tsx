@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import BackgroundImage from './assets/brazilbanner.jpg'; // Assuming './assets/brazilbanner.jpg' is the correct path to your image
+import BackgroundImage from './assets/banner-5.jpeg'; // Assuming './assets/brazilbanner.jpg' is the correct path to your image
 
 // Define keyframe for fade-in animation
 const fadeIn = keyframes`
@@ -125,9 +125,9 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>New Token Listings Announcement 🚀</Title>
+        <Title>Sol Vegas Listings Announcement 🚀</Title>
         <Description>
-          We have just Listed BRZ (Brazilian Coin) as a play token!
+         Sol Vegas token gets launched soon and listed as a play token!
         </Description>
         <Buttons>
           <button onClick={() => window.open('https://example.com', '_blank')}>
