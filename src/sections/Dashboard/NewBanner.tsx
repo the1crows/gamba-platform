@@ -54,16 +54,19 @@ const Background = styled.div`
 const TextContainer = styled.div`
   position: absolute;
   top: 50%;
-  left: 50%;
+  right: 0; // Align to the right side
   transform: translate(-50%, -50%);
   z-index: 2; /* Ensure the text is above the dark layer */
-  padding: 40px;
+  padding: 20px; // Adjust padding as needed
   color: white;
+  text-align: right; // Align text to the right
 
   @media (max-width: 768px) {
     padding: 20px;
+    transform: translate(-20%, -50%); // Adjust for smaller screens if necessary
   }
 `;
+
 
 // Styled components for title, description, and buttons remain the same
 const Title = styled.h1`
