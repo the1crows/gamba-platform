@@ -60,13 +60,13 @@ function MainPage() {
   return (
     <CenteredContainer>
       <Buttons>
-        <button onClick={() => window.open('https://explorer.gamba.so/platform/ES124JMpsdWZzVEjvcFCBjq4W1AwNU336xZzD5fZ833L', '_blank')}>
+        <button onClick={() => window.open('https://explorer.gamba.so/platform/', '_blank')}>
           Explorer
         </button>
-        <button onClick={() => window.open('https://t.me/SwiftDice', '_blank')}>
+        <button onClick={() => window.open('https://t.me/', '_blank')}>
           Telegram
         </button>
-        <button onClick={() => window.open('https://x.com/SwiftDiceCom', '_blank')}>
+        <button onClick={() => window.open('https://x.com/', '_blank')}>
           X.com
         </button>
       </Buttons>
