@@ -22,8 +22,8 @@ function usePlinko(props: PlinkoProps, deps: React.DependencyList) {
   return plinko
 }
 
-const DEGEN_BET = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 10, 10, 15, 20]
-const BET = [0,.5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 3, 3, 3, 3, 6, 6, 6, 12]
+const DEGEN_BET = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 10, 10, 10, 15]
+const BET = [.5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, .5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 1.5, 3, 3, 3, 3, 3, 3, 3, 6]
 
 export default function Plinko() {
   const game = GambaUi.useGame()
@@ -41,7 +41,7 @@ export default function Plinko() {
   const bucketAnimations = React.useRef<Record<number, number>>({})
 
   const bet = degen ? DEGEN_BET : BET
-  const rows = degen ? 12 : 15
+  const rows = degen ? 12 : 14
 
   const multipliers = React.useMemo(() => Array.from(new Set(bet)), [bet])
 
@@ -84,7 +84,7 @@ export default function Plinko() {
             const s = Math.min(xx, yy)
 
             ctx.clearRect(0, 0, size.width, size.height)
-            ctx.fillStyle = '#030303'
+            ctx.fillStyle = '#0b0b13'
             ctx.fillRect(0, 0, size.width, size.height)
             ctx.save()
             ctx.translate(size.width / 2 - plinko.width / 2 * s, size.height / 2 - plinko.height / 2 * s)
