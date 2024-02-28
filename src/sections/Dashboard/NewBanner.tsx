@@ -133,25 +133,23 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>Play Games on SolBets and support $STACKS with Revenue 🚀</Title>
+        <Title>Get Listed On SolBets! </Title>
         <Description>
-          We sharing the platform revenue with #STACKS For BuyBacks and Burn!!
+          Send a Dm To Crow on Tg For Listing!
+          BE AWARE OF SCAMMERS, this is the only way to update the token's info in SolBets.app.
+          Our admins won't DM first, won't ask for funds in private nor use different methods.
+
         </Description>
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://t.me/StacksTokenBSC', '_blank')}>
-            Telegram
+            onClick={() => window.open('https://t.me/the1crow1', '_blank')}>
+            Crow's Telegram Addy
           </button>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://www.dextools.io/app/en/bnb/pair-explorer/0xa1ad3c70207663ee62c5bd7d491c16c25dee9b76?t=1708889419588', '_blank')}>
-            Chart
-          </button>
-          <button 
-            style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://twitter.com/StacksTokenBSC', '_blank')}>
-            X
+            onClick={() => window.open('https://jup.ag', '_blank')}>
+            buy Sol
           </button>
         </Buttons>
       </TextContainer>
