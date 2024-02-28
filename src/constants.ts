@@ -8,7 +8,7 @@ export const RPC_ENDPOINT = 'https://mainnet.helius-rpc.com/?api-key=4746c733-04
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey('E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu')
 
 // Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = 'solbets.app'
+export const PLATFORM_SHARABLE_URL = 'https://solbets.app'
 
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
