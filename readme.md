@@ -1,14 +1,14 @@
-# Sol Vegas Casino Platform 🎲
+# SolBets Casino Platform 🎲
 
-Welcome to the SolVegas Casino Platform, an integral part of the dynamic Gamba Ecosystem.
+Welcome to the SolBets Casino Platform, an integral part of the dynamic Gamba Ecosystem.
 
-Immerse yourself in a state-of-the-art frontend that showcases an extensive selection of meticulously crafted casino games on the SolVegas platform.
+Immerse yourself in a state-of-the-art frontend that showcases an extensive selection of meticulously crafted casino games on the SolBet platform.
 
 ## Advantages
 
-**Decentralized and Fair:** SolVegas harnesses the power of blockchain technology to ensure unrivaled transparency and fairness in every game.
+**Decentralized and Fair:** SolBet harnesses the power of blockchain technology to ensure unrivaled transparency and fairness in every game.
 
-**Robust Ecosystem:** As a cornerstone of the Gamba Ecosystem, SolVegas provides unparalleled support and grants access to a vibrant community of developers and users.
+**Robust Ecosystem:** As a cornerstone of the Gamba Ecosystem, SolBets provides unparalleled support and grants access to a vibrant community of developers and users.
 
 **High Liquidity:** By using Gamba Ecosystem Shared Pools the Jackpot and bet liquidity will always be available for Players.
 
