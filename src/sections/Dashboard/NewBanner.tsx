@@ -136,7 +136,7 @@ export function TokenListingBanner() {
         <Title>Get Listed On SolBets! </Title>
         <Description>
           Send a Dm To Crow on Tg For Listing!
-          BE AWARE OF SCAMMERS, this is the only way to update the token's info in SolBets.app.
+          BE AWARE OF SCAMMERS, this is the only way to Get listed in SolBets.app and Let your community play with Your token
           Our admins won't DM first, won't ask for funds in private nor use different methods.
 
         </Description>
