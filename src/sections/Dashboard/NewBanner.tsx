@@ -135,16 +135,19 @@ export function TokenListingBanner() {
       <TextContainer>
         <Title>Get Listed On SolBets! </Title>
         <Description>
-          Send a Dm To Crow on Tg For Listing!
+          Fill inn https://forms.gle/RXbuUWm7wecLGtSV9 for Listing
+
           BE AWARE OF SCAMMERS, this is the only way to Get listed in SolBets.app and Let your community play with Your token
           Our admins won't DM first, won't ask for funds in private nor use different methods.
+
+         All Listed tokens Getting a AD Banner and a Twitter Space!
 
         </Description>
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://t.me/the1crow1', '_blank')}>
-            Crow's Telegram Addy
+            onClick={() => window.open('https://forms.gle/RXbuUWm7wecLGtSV9', '_blank')}>
+            Listing Form
           </button>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
