@@ -22,7 +22,6 @@ export const TOKENS: TokenMeta[] = [
     decimals: 9,
     baseWager: 1 * 1e9,
    }
-
    {
     mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
     symbol: 'JUP',
@@ -30,5 +29,5 @@ export const TOKENS: TokenMeta[] = [
     image: "https://static.jup.ag/jup/icon.png",
     decimals: 6,
     baseWager: 1 * 1e6,
-   }
+   },
 ]
