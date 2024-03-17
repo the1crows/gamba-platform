@@ -1,5 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
+import Whitepaper from './public/Whitepaper.pdf';
 
 const fadeIn = keyframes`
   from {
@@ -60,6 +61,9 @@ function MainPage() {
   return (
     <CenteredContainer>
       <Buttons>
+        <button onClick={() => window.open(Whitepaper.pdf, '_blank')}>
+          Whitepaper
+        </button>
         <button onClick={() => window.open('https://explorer.gamba.so/platform/E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu', '_blank')}>
           Explorer
         </button>
