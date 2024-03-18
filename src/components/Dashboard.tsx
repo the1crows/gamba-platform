@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import whitepaperPDF from '../public/Whitepaper.pdf';
+import whitepaperPDF from 'public/Whitepaper.pdf';
 
 const fadeIn = keyframes`
   from {
