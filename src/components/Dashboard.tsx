@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import whitepaperPDF from 'public/Whitepaper.pdf';
+import Whitepaper from "../public/Whitepaper.pdf";
 
 const fadeIn = keyframes`
   from {
@@ -64,7 +64,7 @@ function MainPage() {
         <button onClick={() => window.open('https://explorer.gamba.so/platform/E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu', '_blank')}>
           Explorer
         </button>
-        <button onClick={() => window.open(whitepaperPDF, '_blank')}>
+        <button onClick={() => window.open(Whitepaper, '_blank')}>
           Whitepaper
         </button> 
         <button onClick={() => window.open('https://www.dextools.io/app/en/solana/pair-explorer/HdbjJ9YL2pZhNmHQfcu8xikR5LgxoMHbG2RDUz1rUunq?t=1710776526594', '_blank')}>
