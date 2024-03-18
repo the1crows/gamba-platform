@@ -21,5 +21,5 @@ export const TOKENS: TokenMeta[] = [
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
     baseWager: 1
-  }
+  },
 ]
