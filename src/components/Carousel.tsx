@@ -4,10 +4,12 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { WelcomeBanner } from '../sections/Dashboard/WelcomeBanner';
 import { TokenListingBanner } from '../sections/Dashboard/NewBanner';
+import { Solbetbanner } from '../sections/Dashboard/Solbetbanner';
 
 export function NewsCarousel() {
   const banners = [
     <WelcomeBanner key={1} />,
+    <TokenListingBanner key={3} />
     <TokenListingBanner key={2} />
   ];
 
