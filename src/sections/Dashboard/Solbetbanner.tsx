@@ -10,6 +10,9 @@ const fadeIn = keyframes`
   to {
     opacity: 1;
   }
+  to {
+    opacity: 2;
+  }
 `;
 
 // Styled component for the banner container
