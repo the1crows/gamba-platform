@@ -14,7 +14,7 @@ export const PLATFORM_SHARABLE_URL = 'https://solbets.app'
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc
-   {
+  {
     mint: new PublicKey("AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk"),
     symbol: 'SBC',
     name: 'SolBets',
