@@ -135,8 +135,7 @@ export function TokenListingBanner() {
       <TextContainer>
         <Title>Get Listed On SolBets! </Title>
         <Description>
-          Fill inn https://forms.gle/RXbuUWm7wecLGtSV9 for Listing
-
+         
           BE AWARE OF SCAMMERS, this is the only way to Get listed in SolBets.app and Let your community play with Your token
           Our admins won't DM first, won't ask for funds in private nor use different methods.
 
