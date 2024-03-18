@@ -10,7 +10,7 @@ export function NewsCarousel() {
   const banners = [
     <WelcomeBanner key={1} />,
     <TokenListingBanner key={3} />
-    <TokenListingBanner key={2} />
+    <Solbetbanner key={2} />
   ];
 
   const settings = {
