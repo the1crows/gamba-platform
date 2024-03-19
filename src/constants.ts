@@ -13,7 +13,7 @@ export const PLATFORM_SHARABLE_URL = 'https://solbets.app'
 // List of tokens supported by this platform
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
-  GambaStandardTokens.usdc
+  GambaStandardTokens.usdc,
   {
     mint: new PublicKey("AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk"),
     symbol: 'SBC',
