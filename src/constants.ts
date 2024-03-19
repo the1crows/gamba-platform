@@ -14,12 +14,12 @@ export const PLATFORM_SHARABLE_URL = 'https://solbets.app'
 export const TOKENS: TokenMeta[] = [
   GambaStandardTokens.sol,
   GambaStandardTokens.usdc
-  //{
-  //  mint: new PublicKey("AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk"),
-  //  symbol: 'SBC',
-  //  name: 'SolBets',
-  //  image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
-  //  decimals: 9,
-  //  baseWager: 1
-  //},
+  {
+    mint: new PublicKey("AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk"),
+    symbol: 'SBC',
+    name: 'SolBets',
+    image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
+    decimals: 9,
+    baseWager: 1
+  },
 ]
