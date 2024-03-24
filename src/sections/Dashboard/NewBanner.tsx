@@ -133,25 +133,19 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>Get Listed On SolBets! </Title>
+        <Title>Mint SolBets Farmers! </Title>
         <Description>
          
-          BE AWARE OF SCAMMERS, this is the only way to Get listed in SolBets.app and Let your community play with Your token
-          Our admins won't DM first, won't ask for funds in private nor use different methods.
+          Every SolBet NFT Farmer is designed to stake to a dedicated treasury, acting as the heartbeat of our ecosystem. This treasury accumulates resources vital for fueling the growth and development of SolBets.
 
-         All Listed tokens Getting a AD Banner and a Twitter Space!
+         Why Mint the whitelist mint phase? Because it's your only shot to secure multiple farmers at this price point. Subsequent farmer drops will be priced higher and limited in availability, making this first mint phase truly special.
 
         </Description>
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
             onClick={() => window.open('https://forms.gle/RXbuUWm7wecLGtSV9', '_blank')}>
-            Listing Form
-          </button>
-          <button 
-            style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://jup.ag', '_blank')}>
-            buy Sol
+            Mint Farmer
           </button>
         </Buttons>
       </TextContainer>
