@@ -144,7 +144,7 @@ export function TokenListingBanner() {
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://forms.gle/RXbuUWm7wecLGtSV9', '_blank')}>
+            onClick={() => window.open('https://launchmynft.io/collections/E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu/JybGX224TOYSsRwMMIyp', '_blank')}>
             Mint Farmer
           </button>
         </Buttons>
