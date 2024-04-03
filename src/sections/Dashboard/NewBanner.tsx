@@ -133,19 +133,19 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>Mint SolBets Farmers! </Title>
+        <Title>Stake your NFT Farmers! </Title>
         <Description>
          
-          Every SolBet NFT Farmer is designed to stake to a dedicated treasury, acting as the heartbeat of our ecosystem. This treasury accumulates resources vital for fueling the growth and development of SolBets.
+          Stake Your SolBets Farmers and earn Daily income of $SBC
 
-         Why Mint the whitelist mint phase? Because it's your only shot to secure multiple farmers at this price point. Subsequent farmer drops will be priced higher and limited in availability, making this first mint phase truly special.
+         Click on the Button under to Stake your Farmer!
 
         </Description>
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
           <button 
             style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://launchmynft.io/collections/E8tzfzDJa2CVc2BVXu6mmg83sp2JV4mXeVTvR5GwCJyu/JybGX224TOYSsRwMMIyp', '_blank')}>
-            Mint Farmer
+            onClick={() => window.open('https://anybodies.com/c/SolBets', '_blank')}>
+            Stake
           </button>
         </Buttons>
       </TextContainer>
