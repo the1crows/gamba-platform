@@ -136,9 +136,9 @@ export function TokenListingBanner() {
         <Title>Stake your NFT Farmers! </Title>
         <Description>
          
-          Stake Your SolBets Farmers and earn Daily income of $SBC
+          Stake Your SolBets Farmers and earn Daily income of $SBC!!<br/>
 
-         Click on the Button under to Stake your Farmer!
+         Click the Button under to Stake your Farmer!
 
         </Description>
         <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
