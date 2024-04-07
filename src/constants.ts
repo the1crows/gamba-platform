@@ -21,7 +21,7 @@ export const TOKENS: TokenMeta[] = [
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
     baseWager: 1
-  }
+  },
   {
     mint: new PublicKey("85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"),
     symbol: 'W',
