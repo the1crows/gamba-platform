@@ -21,5 +21,13 @@ export const TOKENS: TokenMeta[] = [
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
     baseWager: 1
-  },
+  }
+  {
+    mint: new PublicKey("85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"),
+    symbol: 'W',
+    name: 'Wormhole',
+    image: "https://img.fotofolio.xyz/?url=https%3A%2F%2Fwormhole.com%2Ftoken.png&width=200",
+    decimals: 6,
+    baseWager: 1 * 1e6,
+  }, 
 ]
