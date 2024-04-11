@@ -20,6 +20,8 @@ const BannerContainer = styled.div`
   animation: ${fadeIn} 0.8s ease forwards;
   height: 441px; /* Set a fixed height for all banners */
 
+  /* Remove the dark layer */
+  /*
   &::before {
     content: '';
     position: absolute;
@@ -27,9 +29,10 @@ const BannerContainer = styled.div`
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent dark layer */
+    background: rgba(0, 0, 0, 0.5); // Semi-transparent dark layer
     z-index: 1;
   }
+  */
 
   @media (max-width: 768px) {
     border-radius: 0; /* Remove border radius for mobile */
