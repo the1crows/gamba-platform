@@ -23,6 +23,14 @@ export const TOKENS: TokenMeta[] = [
     baseWager: 1
   },
   {
+    mint: new PublicKey("FQMoiNiQGLngizBVdhxqD1o2k6rvcX9ComxjKucgBByH"),
+    symbol: 'BESA',
+    name: 'Besa Gaming',
+    image: "https://ipfs.coinsult.app/ipfs/QmTX3HRcNLVVbGsjMEAhNkfZtNH8xyDeVKLhMm7jgw5AmT",
+    decimals: 9,
+    baseWager: 1
+  }, 
+  {
     mint: new PublicKey("85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ"),
     symbol: 'W',
     name: 'Wormhole',
