@@ -100,7 +100,7 @@ function Mines() {
         metadata: [currentLevel],
       })
 
-      const result = await gamba.result()
+      const result = await game.result()
 
       sounds.sounds.tick.player.stop()
 
