@@ -110,7 +110,7 @@ export default function HiLo(props: HiLoConfig) {
       wager,
     })
 
-    const result = await gamba.result()
+    const result = await game.result()
     addCard(result.resultIndex)
     sounds.play('card', { playbackRate: .8 })
     const win = result.payout > 0
@@ -146,7 +146,7 @@ export default function HiLo(props: HiLoConfig) {
                     >
                       <Card>
                         <div className="rank">{RANK_SYMBOLS[card.rank]}</div>
-                        <div className="suit" style={{ backgroundImage: 'url(' + props.logo + ')' }} />
+                        <div className="suit" style={{ backgroundImage: 'url(' + props.logo +  ')' }} />
                       </Card>
                     </CardContainer>
                   )
@@ -160,7 +160,7 @@ export default function HiLo(props: HiLoConfig) {
                   onMouseLeave={() => hoverOption(undefined)}
                 >
                   <div>
-                  <span style={{ color: 'green' }}>&#x2B06;</span> {/* Green arrow up */}
+                    👆
                   </div>
                   <div>HI - ({Math.max(...betHi).toFixed(2)}x)</div>
                 </Option>
@@ -171,7 +171,7 @@ export default function HiLo(props: HiLoConfig) {
                   onMouseLeave={() => hoverOption(undefined)}
                 >
                   <div>
-                  <span style={{ color: 'red' }}>&#x2B07;</span> {/* Red arrow down */}
+                    👇
                   </div>
                   <div>LO - ({Math.max(...betLo).toFixed(2)}x)</div>
                 </Option>
