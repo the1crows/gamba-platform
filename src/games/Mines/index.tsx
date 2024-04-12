@@ -3,7 +3,7 @@ import { GambaUi, TokenValue, useCurrentPool, useSound, useWagerInput } from 'ga
 import { useGamba } from 'gamba-react-v2'
 import React from 'react'
 import { GRID_SIZE, MINE_SELECT, PITCH_INCREASE_FACTOR, SOUND_EXPLODE, SOUND_FINISH, SOUND_STEP, SOUND_TICK, SOUND_WIN } from './constants'
-import { CellButton, Container, Container2, Grid, Level, Levels, StatusBar,margintop } from './styles'
+import { CellButton, Container, Container2, Grid, Level, Levels, StatusBar } from './styles'
 import { generateGrid, revealAllMines, revealGold } from './utils'
 
 function Mines() {
@@ -32,8 +32,6 @@ function Mines() {
     const remainingCells = GRID_SIZE - level
     return Number(BigInt(remainingCells * BPS_PER_WHOLE) / BigInt(remainingCells - mines)) / BPS_PER_WHOLE
   }
-
-  const isMobile = window.innerWidth <= 560;
 
   const levels = React.useMemo(
     () => {
@@ -135,7 +133,7 @@ function Mines() {
   return (
     <>
       <GambaUi.Portal target="screen">
-        <Container2 className={`${isMobile ? 'margintop' : ''}`}>
+        <Container2>
           <Levels>
             {levels
               .map(({ cumProfit }, i) => {
@@ -174,7 +172,6 @@ function Mines() {
                     onClick={() => play(index)}
                     disabled={!canPlay || cell.status !== 'hidden'}
                   >
-                    {/* {(cell.status === 'hidden' || cell.status === 'mine') && <MineSvg />} */}
                     {(cell.status === 'gold') && (
                       <div>
                         +<TokenValue amount={cell.profit} />
@@ -214,4 +211,3 @@ function Mines() {
 }
 
 export default Mines
-
