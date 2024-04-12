@@ -52,7 +52,6 @@ const hoverPulse = keyframes`
 `
 
 export const Container2 = styled.div`
-  margin-top: 25px;
   display: grid;
   grid-template-rows: auto auto 1fr;
   height: 100%;
@@ -75,9 +74,6 @@ export const Grid = styled.div`
   gap: 8px;
 `
 
-export const margintop = styled.div`
-margin-top: 50px;
-`
 export const Levels = styled.div`
   border-radius: 5px;
   color: gray;
@@ -117,7 +113,6 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
   align-items: center;
   justify-content: center;
   background: #9358ff;
-  /* background: url(https://i.pinimg.com/236x/7d/a1/04/7da10489ada2a7fded7b28f0184acd1c.jpg); */
   background-size: 100%;
   border: none;
   border-bottom: 5px solid #00000055;
@@ -136,9 +131,7 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
   `}
 
   ${(props) => props.status === 'gold' && css`
-    color: #005822;
     color: white;
-    /* background: #3fff7a; */
     animation: ${goldReveal} .5s ease;
     opacity: 1;
   `}
@@ -151,7 +144,6 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
   `}
 
   ${(props) => props.status === 'hidden' && css`
-    /* background: #573c89; */
     &:disabled {
       opacity: .5;
     }
@@ -163,8 +155,6 @@ export const CellButton = styled.button<{status: CellStatus, selected: boolean}>
 
   &:hover:not(:disabled) {
     filter: brightness(1.5);
-    /* background: #764cc4; */
-    /* animation: ${hoverPulse} .25s ease infinite; */
   }
 `
 
