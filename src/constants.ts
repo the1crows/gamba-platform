@@ -41,8 +41,6 @@ export const POOLS = [
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Fake token:
-  lp(FAKE_TOKEN_MINT),
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
 ]
@@ -61,7 +59,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'SolBets',
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
-    baseWager: 1
+    baseWager: 1 * 1e9,
   },
   {
     mint: new PublicKey("FQMoiNiQGLngizBVdhxqD1o2k6rvcX9ComxjKucgBByH"),
@@ -69,7 +67,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Besa Gaming',
     image: "https://ipfs.coinsult.app/ipfs/QmTX3HRcNLVVbGsjMEAhNkfZtNH8xyDeVKLhMm7jgw5AmT",
     decimals: 9,
-    baseWager: 1
+    baseWager: 1 * 1e9,
   }, 
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
