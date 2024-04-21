@@ -70,6 +70,12 @@ function MainPage() {
         <button onClick={() => window.open('https://www.dextools.io/app/en/solana/pair-explorer/HdbjJ9YL2pZhNmHQfcu8xikR5LgxoMHbG2RDUz1rUunq?t=1710776526594', '_blank')}>
           Dextools
         </button>
+        <button onClick={() => window.open('https://dexscreener.com/solana/AAWGz6ufbwssULAzdSpkrK9UTFhkf3Nfg9j2WqJFvBDk', '_blank')}>
+          Dex Screener
+        </button>
+        <button onClick={() => window.open('https://discord.gg/FVpzcneBZv', '_blank')}>
+          Discord
+        </button>
         <button onClick={() => window.open('https://t.me/SolBetsCasino', '_blank')}>
           Telegram
         </button>
