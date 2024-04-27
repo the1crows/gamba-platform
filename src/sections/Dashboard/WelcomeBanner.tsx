@@ -9,6 +9,8 @@ const fadeIn = keyframes`
   to {
     opacity: 1;
   }
+  to {
+    opacity: 2;
 `;
 
 const darken = keyframes`
