@@ -1,0 +1,11 @@
+/* Footer styles */
+footer {
+    background-color: #000; /* Set footer background color */
+    color: #fff; /* Set footer text color */
+    padding: 20px; /* Add padding to footer */
+    text-align: center; /* Center align footer content */
+  }
+  
+  footer a {
+    color: #fff; /* Set link color in footer */
+  }
