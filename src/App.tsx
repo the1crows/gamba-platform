@@ -55,7 +55,6 @@ export default function App() {
         <ErrorHandler />
         <Header />
         <Toasts />
-        <Footer />
         <StyledSection>
           <Routes>
             <Route path="/" element={<Dashboard />} />
@@ -63,6 +62,7 @@ export default function App() {
           </Routes>
           <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
           <RecentPlays />
+          <Footer />
         </StyledSection>
       </div> 
     </>
