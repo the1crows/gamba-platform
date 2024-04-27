@@ -4,7 +4,7 @@
   }
   
   /* Footer styles */
-  footer {
+footer {
     box-sizing: border-box;
     position: fixed; /* Position fixed to keep it at the bottom */
     bottom: 0; /* Stick to the bottom */
@@ -17,4 +17,10 @@
     background: #15151f;
     color: white;
   }
+  
+  /* Adjust the logo size */
+  footer img {
+    width: 80px; /* Adjust the width of the logo */
+  }
+  
   
