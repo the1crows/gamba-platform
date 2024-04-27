@@ -83,5 +83,5 @@ body::-webkit-scrollbar-thumb {
   background-image: url('/futuristic.svg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 75%; /* Adjust the percentage as needed to zoom out */
+  background-size: 90%; /* Adjust the percentage as needed to zoom out */
 }
