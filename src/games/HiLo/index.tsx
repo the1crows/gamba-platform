@@ -54,7 +54,7 @@ export default function HiLo(props: HiLoConfig) {
   const gamba = useGamba()
   const pool = useCurrentPool()
   const [cards, setCards] = React.useState([card()])
-  const [claiming, setClaiming] = React.useState(true)
+  const [claiming, setClaiming] = React.useState(false)
   const [initialWager, setInitialWager] = useWagerInput()
   const [profit, setProfit] = React.useState(0)
   const currentRank = cards[cards.length - 1].rank
@@ -89,10 +89,10 @@ export default function HiLo(props: HiLoConfig) {
         setProfit(0)
         sounds.play('card')
         addCard(randomRank())
-        setClaiming(true)
+        setClaiming(false)
       }, 300)
     } catch {
-      setClaiming(true)
+      setClaiming(false)
     }
   }
 
