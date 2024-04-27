@@ -48,6 +48,7 @@ function ErrorHandler() {
 export default function App() {
   return (
     <>
+     <div className="bg-background-image h-screen overflow-auto">
       <ScrollToTop />
       <ErrorHandler />
       <Header />
@@ -60,6 +61,7 @@ export default function App() {
         <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
         <RecentPlays />
       </StyledSection>
+     </div>
     </>
   )
 }
