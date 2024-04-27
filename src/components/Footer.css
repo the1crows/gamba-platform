@@ -1,5 +1,9 @@
 /* Footer styles */
 footer {
+    position: fixed; /* Set footer position as fixed */
+    bottom: 0; /* Align footer to the bottom of the viewport */
+    left: 0; /* Align footer to the left */
+    width: 100%; /* Set footer width to full */
     background-color: #000; /* Set footer background color */
     color: #fff; /* Set footer text color */
     padding: 20px; /* Add padding to footer */
@@ -9,3 +13,4 @@ footer {
   footer a {
     color: #fff; /* Set link color in footer */
   }
+  
