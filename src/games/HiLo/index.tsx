@@ -89,10 +89,10 @@ export default function HiLo(props: HiLoConfig) {
         setProfit(0)
         sounds.play('card')
         addCard(randomRank())
-        setClaiming(false)
+        setClaiming(true)
       }, 300)
     } catch {
-      setClaiming(false)
+      setClaiming(true)
     }
   }
 
