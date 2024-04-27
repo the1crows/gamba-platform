@@ -7,10 +7,15 @@ footer {
     background-color: #000; /* Set footer background color */
     color: #fff; /* Set footer text color */
     padding: 20px; /* Add padding to footer */
-    text-align: center; /* Center align footer content */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space content evenly along the main axis */
+    align-items: center; /* Center align items vertically */
   }
   
   footer a {
     color: #fff; /* Set link color in footer */
   }
   
+  .logo {
+    margin-right: auto; /* Push the logo to the left */
+  }
