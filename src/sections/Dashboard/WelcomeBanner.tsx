@@ -1,6 +1,12 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import mascotImage from '../../../public/mascot.png';
+import SBCLogo from '../../../public/SBC.png'; // Replace with the actual token logo
+import SolanaLogo from '../../../public/Sol.png'; // Replace with the actual token logo
+import BesaLogo from '../../../public/Besa.png'; // Replace with the actual token logo
+import JupiterLogo from '../../../public/Jupiter.png'; // Replace with the actual token logo
+import wLogo from '../../../public/W.png'; // Replace with the actual token logo
+import UsccLogo from '../../../public/Usdc.png'; // Replace with the actual token logo
 
 const fadeIn = keyframes`
   from {
@@ -96,6 +102,12 @@ const Description = styled.p`
   }
 `;
 
+const TokensTitle = styled.p`
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+`;
+
 export function WelcomeBanner() {
   return (
     <BannerContainer>
@@ -105,6 +117,15 @@ export function WelcomeBanner() {
         <Description>
           Discover a transparent and decentralized casino experience on Solana, where participants can generate income by contributing to a shared liquidity pool.
         </Description>
+        <TokensTitle>Tokens available in the casino</TokensTitle>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
+          <img src={SBCLogo} alt="SBC" onClick={() => window.open('https://dexscreener.com/solana/hdbjj9yl2pzhnmhqfcu8xikr5lgxomhbg2rduz1ruunq', '_blank')} />
+          <img src={SolanaLogo} alt="Sol" onClick={() => window.open('https://solscan.io/token/So11111111111111111111111111111111111111112', '_blank')} />
+          <img src={BesaLogo} alt="Besa" onClick={() => window.open('https://dexscreener.com/solana/5rsztkbcuxeotpw3fxwpw1zuayn4segp8nx1mwf5vmxq', '_blank')} />
+          <img src={JupiterLogo} alt="Jupiter" onClick={() => window.open('https://solscan.io/token/JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN', '_blank')} />
+          <img src={WLogo} alt="W" onClick={() => window.open('https://solscan.io/token/HbztV13A283sP7AWQVqfxe46WT89te5pBFFjpjSess4t', '_blank')} />
+          <img src={UsdcLogo} alt="Usdc" onClick={() => window.open('https://solscan.io/token/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v', '_blank')} />
+        </div>
       </TextContainer>
     </BannerContainer>
   );
