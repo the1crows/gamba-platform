@@ -16,7 +16,7 @@ export const EXPLORER_URL = `https://explorer.gamba.so/`;
 export const PLATFORM_SHARABLE_URL = 'https://solbets.app'
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.05 // 1% (1/100 = 0.01)
+export const PLATFORM_CREATOR_FEE = 0.09 // 1% (1/100 = 0.01)
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.001 // 0.1% (0.1/100 = 0.001)
@@ -43,6 +43,8 @@ export const POOLS = [
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Wormhole:
   lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  //jupiter
+  lp('JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN'),
 ]
 
 // The default token to be selected
@@ -59,7 +61,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'SolBets',
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
-    baseWager: 1,
+    baseWager: 1 * 1e9,
   },
   {
     mint: new PublicKey("FQMoiNiQGLngizBVdhxqD1o2k6rvcX9ComxjKucgBByH"),
@@ -67,7 +69,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Besa Gaming',
     image: "https://ipfs.coinsult.app/ipfs/QmTX3HRcNLVVbGsjMEAhNkfZtNH8xyDeVKLhMm7jgw5AmT",
     decimals: 9,
-    baseWager: 1,
+    baseWager: 1 * 1e9,
   }, 
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
@@ -92,7 +94,15 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     image: "https://img.fotofolio.xyz/?url=https%3A%2F%2Fwormhole.com%2Ftoken.png&width=200",
     decimals: 6,
     baseWager: 1 * 1e6,
-  }, 
+  },
+  {
+    mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
+    symbol: 'JUP',
+    name: 'Jupiter',
+    image: "https://static.jup.ag/jup/icon.png",
+    decimals: 6,
+    baseWager: 1 * 1e6,
+  },  
 ]
 
 /**
