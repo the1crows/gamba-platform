@@ -78,3 +78,10 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   align-items: center;
 }
+
+.bg-background-image {
+  background-image: url('/futuristic.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
