@@ -61,7 +61,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'SolBets',
     image: "https://i.postimg.cc/RFgHkqVr/Design-uten-navn-1.png",
     decimals: 9,
-    baseWager: 1 * 1e9,
+    baseWager: 1,
   },
   {
     mint: new PublicKey("FQMoiNiQGLngizBVdhxqD1o2k6rvcX9ComxjKucgBByH"),
@@ -69,7 +69,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Besa Gaming',
     image: "https://ipfs.coinsult.app/ipfs/QmTX3HRcNLVVbGsjMEAhNkfZtNH8xyDeVKLhMm7jgw5AmT",
     decimals: 9,
-    baseWager: 1 * 1e9,
+    baseWager: 1,
   }, 
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
