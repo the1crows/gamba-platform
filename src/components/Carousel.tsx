@@ -2,11 +2,13 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { WelcomeBanner2 } from '../sections/Dashboard/WelcomeBanner2';
 import { WelcomeBanner } from '../sections/Dashboard/WelcomeBanner';
 import { TokenListingBanner } from '../sections/Dashboard/NewBanner';
 
 export function NewsCarousel() {
   const banners = [
+    <WelcomeBanner2 key={0} />,
     <WelcomeBanner key={1} />,
     <TokenListingBanner key={2} />
   ];
