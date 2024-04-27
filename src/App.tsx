@@ -60,7 +60,6 @@ export default function App() {
           </Routes>
           <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
           <RecentPlays />
-          <Footer />
         </StyledSection>
       </div> 
     </>
