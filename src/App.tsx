@@ -48,20 +48,21 @@ function ErrorHandler() {
 export default function App() {
   return (
     <>
-     <div className="bg-background-image h-screen overflow-auto">
-      <ScrollToTop />
-      <ErrorHandler />
-      <Header />
-      <Toasts />
-      <StyledSection>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/:gameId" element={<Game />} />
-        </Routes>
-        <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
-        <RecentPlays />
-      </StyledSection>
-     </div>
+      <div className="bg-background-image h-screen overflow-auto">
+        <ScrollToTop />
+        <ErrorHandler />
+        <Header />
+        <Toasts />
+        <StyledSection>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route path="/:gameId" element={<Game />} />
+          </Routes>
+          <h2 style={{ textAlign: 'center' }}>Recent Plays</h2>
+          <RecentPlays />
+        </StyledSection>
+      </div>
+      <Footer /> 
     </>
   )
 }
