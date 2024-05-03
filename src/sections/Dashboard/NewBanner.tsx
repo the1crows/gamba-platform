@@ -1,6 +1,6 @@
 import React from 'react';
 import styled, { keyframes } from 'styled-components';
-import BackgroundImage from './assets/BesaBanner.png'; // Assuming './assets/brazilbanner.jpg' is the correct path to your image
+import BackgroundImage from './assets/banner-5.jpeg'; // Assuming './assets/brazilbanner.jpg' is the correct path to your image
 
 // Define keyframe for fade-in animation
 const fadeIn = keyframes`
@@ -139,28 +139,9 @@ export function TokenListingBanner() {
     <BannerContainer>
       <Background />
       <TextContainer>
-        <Title>SolBets + Besa Gaming </Title>
+        <Title>Do you want your project featured here ?  </Title>
         <Description>
-          Introducing Besa Gaming as a official Partnered Project<br/>
-          Verified Token to play games on SBC!
         </Description>
-        <Buttons style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
-          <button 
-            style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://www.besagaming.com/en', '_blank')}>
-            Website
-          </button>
-          <button 
-            style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://t.me/GamingUmbrella', '_blank')}>
-            Telegram
-          </button>
-          <button 
-            style={{ padding: '10px', cursor: 'pointer' }} 
-            onClick={() => window.open('https://dexscreener.com/solana/5rsztkbcuxeotpw3fxwpw1zuayn4segp8nx1mwf5vmxq', '_blank')}>
-            Chart
-          </button>
-        </Buttons>
       </TextContainer>
     </BannerContainer>
   );
