@@ -8,9 +8,8 @@ import { TokenListingBanner } from '../sections/Dashboard/NewBanner';
 
 export function NewsCarousel() {
   const banners = [
-    <WelcomeBanner2 key={0} />,
-    <WelcomeBanner key={1} />,
-    <TokenListingBanner key={2} />
+    <WelcomeBanner key={0} />,
+    <TokenListingBanner key={1} />
   ];
 
   const settings = {
